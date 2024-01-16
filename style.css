@@ -1,47 +1,77 @@
-
 body {
-    font-family: 'Press Start 2P', cursive;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Roboto', sans-serif; /* Simple and clean font */
+    background-color: #7bb26d; /* Green background similar to Stardew Valley fields */
+    color: #ffffff;
     text-align: center;
 }
+
 .screen {
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
-    background-color: #fff5ee; /* Soft background color */
-    border: 2px solid #8b4513; /* Border to mimic RPG style */
+    background-color: #fffbe6; /* Light, warm background */
+    border: 4px solid #8b4513; /* Dark brown border */
     border-radius: 10px;
+    width: 80%; /* Set a max-width for better layout */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
 }
-.hidden {
-    display: none;
+
+.skill-category {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0e68c; /* Light yellow background for categories */
+    border: 2px solid #8b4513; /* Consistent border style */
+    border-radius: 5px;
 }
+
+.skill {
+    margin: 10px 0;
+}
+
+.skill-name {
+    display: inline-block;
+    width: 20%; /* Adjust as needed */
+    text-align: left;
+    font-weight: bold;
+}
+
+.skill-bar {
+    display: inline-block;
+    width: 70%; /* Adjust as needed */
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
 button {
     background-color: #4CAF50; /* Green */
-    border: none;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid #8b4513; /* Dark brown border for buttons */
     border-radius: 5px;
+    font-size: 0.8em;
 }
-h1, h2 {
-    color: #6b8e23; /* Earthy green color for headings */
+
+button:hover {
+    background-color: #3e8e41;
 }
-a {
-    color: #6b8e23;
-    text-decoration: none;
+
+h1, h2, h3 {
+    color: #8b4513; /* Dark brown color for headings */
 }
-a:hover {
-    text-decoration: underline;
+
+.back-button {
+    background-color: #8b4513; /* Dark brown */
+    color: white;
+    border: 2px solid #f4a460; /* Softer brown for border */
 }
-img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border: 2px solid #8b4513;
-    border-radius: 5px;
+
+.back-button:hover {
+    background-color: #a0522d;
 }

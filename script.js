@@ -1,3 +1,8 @@
+window.onload = function() {
+    document.getElementById('character-sheet').classList.add('hidden');
+    document.getElementById('quest-log').classList.add('hidden');
+    document.getElementById('contact-tavern').classList.add('hidden');
+};
 
 document.getElementById('start-adventure').addEventListener('click', function() {
     document.getElementById('game-start-screen').classList.add('hidden');
@@ -10,3 +15,4 @@ document.getElementById('view-portfolio').addEventListener('click', function() {
 });
 
 // Additional interactive elements can be added here as needed
+
