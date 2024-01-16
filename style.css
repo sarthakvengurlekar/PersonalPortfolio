@@ -54,6 +54,18 @@ body {
     border-radius: 5px;
 }
 
+.quest-title {
+    color: #1a0dab; /* Typical link color */
+    text-decoration: underline; /* Underline like a hyperlink */
+    cursor: pointer; /* Changes the cursor to indicate clickability */
+    /* Other existing styles... */
+}
+
+.quest-description {
+    color: #333333; /* Or any dark color you prefer */
+    /* Other existing styles... */
+}
+
 button {
     background-color: #4CAF50; /* Green */
     color: white;

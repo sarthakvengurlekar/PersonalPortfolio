@@ -3,7 +3,12 @@ window.onload = function() {
     document.getElementById('quest-log').classList.add('hidden');
     document.getElementById('contact-tavern').classList.add('hidden');
 };
-
+document.querySelectorAll('.quest-title').forEach(function(title) {
+    title.addEventListener('click', function() {
+        // Toggle the 'hidden' class on the next sibling element (the project description)
+        this.nextElementSibling.classList.toggle('hidden');
+    });
+});
 document.getElementById('start-adventure').addEventListener('click', function() {
     document.getElementById('game-start-screen').classList.add('hidden');
     document.getElementById('character-sheet').classList.remove('hidden');
