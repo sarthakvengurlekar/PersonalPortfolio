@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif; /* Simple and clean font */
-    background-color: #7bb26d; /* Green background similar to Stardew Valley fields */
+    background-color: #7fba70; /* Green background similar to Stardew Valley fields */
     color: #ffffff;
     text-align: center;
 }
@@ -94,4 +94,40 @@ p {
 
 .back-button:hover {
     background-color: #a0522d;
+}
+
+#contact-tavern {
+    background-color: #f3f3f3; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center align the content */
+    max-width: 600px; /* Set a max-width for better readability */
+    margin: 20px auto; /* Center the div on the page */
+}
+
+#contact-tavern h2 {
+    color: #6b8e23; /* Earthy green color for headings */
+    margin-bottom: 15px;
+}
+
+#contact-tavern a {
+    color: #1a0dab; /* Link color */
+    text-decoration: none; /* No underline */
+}
+
+#contact-tavern a:hover {
+    text-decoration: underline; /* Underline on hover for interactivity */
+}
+
+#contact-tavern .back-button {
+    margin-top: 20px;
+}
+
+.upcoming-updates {
+    margin-top: 20px;
+    color: #6b8e23; /* Choose a color that fits your theme */
+    font-style: italic;
+    font-size: 1.2em; /* Adjust the size as needed */
 }

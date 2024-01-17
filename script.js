@@ -19,12 +19,23 @@ document.getElementById('view-portfolio').addEventListener('click', function() {
     document.getElementById('quest-log').classList.remove('hidden');
 });
 
+document.getElementById('view-backstory').addEventListener('click', function() {
+    document.getElementById('game-start-screen').classList.add('hidden');
+    document.getElementById('character-backstory').classList.remove('hidden');
+});
+
+document.getElementById('view-contact').addEventListener('click', function() {
+    document.getElementById('game-start-screen').classList.add('hidden');
+    document.getElementById('contact-tavern').classList.remove('hidden');
+});
+
 // Function to show the start screen and hide all other sections
 function showStartScreen() {
     document.getElementById('game-start-screen').classList.remove('hidden');
     document.getElementById('character-sheet').classList.add('hidden');
     document.getElementById('quest-log').classList.add('hidden');
     document.getElementById('contact-tavern').classList.add('hidden');
+    document.getElementById('character-backstory').classList.add('hidden');
 }
 
 // Attach this function to all back buttons
